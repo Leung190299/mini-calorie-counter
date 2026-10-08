@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Calorie Counter (example)",
+    "slug": "mini-calorie-counter-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "experiments": {
+      "tsconfigPaths": false
+    }
+  }
+}

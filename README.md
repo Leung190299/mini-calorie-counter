@@ -21,6 +21,20 @@ git push --follow-tags
 Then in exercise-app: change the tag in `package.json`, run `npm install`, commit, and deploy OTA
 (`npm run ota:dev`, test on the Dev app, then `hot-updater bundle promote`).
 
+## Run standalone (example app)
+
+`example/` is a small Expo app that renders this mini app on its own, with a light/dark toggle and
+the same colors the host passes down. It is not part of the package (`files` only ships
+`index.tsx` and `src`).
+
+```bash
+cd example
+npm install
+npx expo start        # press i for the iOS simulator, or scan the QR code with Expo Go
+```
+
+Keep `example/package.json` on the same Expo SDK, `react` and `react-native` versions as exercise-app.
+
 ## Develop against the host locally
 
 ```bash

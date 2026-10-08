@@ -1,0 +1,11 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    // The mini app source lives in `..`, which has no node_modules: resolve its imports here.
+    "paths": {
+      "*": ["./node_modules/@types/*", "./node_modules/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "../index.tsx", "../src"]
+}
