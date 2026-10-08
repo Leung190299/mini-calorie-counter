@@ -1,0 +1,25 @@
+{
+  "name": "@exercise/mini-calorie-counter",
+  "version": "1.2.0",
+  "description": "Đếm calo — mini app for exercise-app",
+  "main": "index.tsx",
+  "files": [
+    "index.tsx",
+    "src"
+  ],
+  "peerDependencies": {
+    "@exercise/mini-app-sdk": "^1.0.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@exercise/mini-app-sdk": "github:Leung190299/mini-app-sdk#v1.0.0",
+    "@types/react": "~19.2.2",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
